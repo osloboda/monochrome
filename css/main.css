@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+}
+
+body {
+    background: rgb(237, 234, 234);
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.nav_menu {
+    width: 100vw;
+    height: 6vh;
+    background: rgb(35, 34, 34);
+    display: flex;
+
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+
+}
+
+.menu_items {
+
+
+    height: 100%;
+}
+
+.menu_detail {
+
+    width: 20vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    transform: skewX(-50deg);
+    margin-right: -100px;
+
+
+
+}
+
+.logo_title {
+
+    margin-left: 70px;
+    font-size: 31px;
+    line-height: 66px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 9.2px;
+    color: black;
+    transform: skewX(+50deg);
+
+
+}
+
+.menu_items_wrapper {
+    width: 78vw;
+    display: flex;
+    margin-left: 140px;
+    justify-content: space-around;
+}
+
+.menu_titles {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 19px;
+    line-height: 55px;
+    margin: auto;
+
+}
+
+.place_for_search {
+    width: 16vw;
+    height: 20px;
+    margin-top: 14px;
+    border: none;
+    padding: 5px;
+    background: rgb(237, 234, 234);
+
+}
+
+.GoToPopup {
+    width: 2vw;
+    height: 38px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+
+}
+
+.fas {
+    font-size: 30px;
+    color: rgb(237, 234, 234);
+}
+
+.search {
+    width: 24vw;
+    height: 100%;
+    visibility: hidden;
+
+
+
+}
